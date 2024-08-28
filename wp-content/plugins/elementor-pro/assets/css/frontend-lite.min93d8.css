@@ -1,0 +1,153 @@
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://inmobiliariapmi.com/prueba/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://inmobiliariapmi.com/prueba/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;font-display:fallback;src:url('https://inmobiliariapmi.com/prueba/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:normal;font-weight:700;font-display:fallback;src:url('https://inmobiliariapmi.com/prueba/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');}
+
+.prueba-bg-transform .prueba-bg {
+    will-change:transform
+}
+.prueba-bg-transform-zoom-in:hover .prueba-bg,.prueba-bg-transform-zoom-out .prueba-bg {
+    transform:scale(1.2)
+}
+.prueba-bg-transform-zoom-out:hover .prueba-bg {
+    transform:scale(1)
+}
+.prueba-bg-transform-move-left .prueba-bg {
+    transform:scale(1.2) translateX(8%)
+}
+.prueba-bg-transform-move-left:hover .prueba-bg,.prueba-bg-transform-move-right .prueba-bg {
+    transform:scale(1.2) translateX(-8%)
+}
+.prueba-bg-transform-move-right:hover .prueba-bg {
+    transform:scale(1.2) translateX(8%)
+}
+.prueba-bg-transform-move-up .prueba-bg {
+    transform:scale(1.2) translateY(8%)
+}
+.prueba-bg-transform-move-down .prueba-bg,.prueba-bg-transform-move-up:hover .prueba-bg {
+    transform:scale(1.2) translateY(-8%)
+}
+.prueba-bg-transform-move-down:hover .prueba-bg {
+    transform:scale(1.2) translateY(8%)
+}
+.prueba-animated-content {
+    --translate:0,0
+}
+.prueba-animated-content:focus .prueba-animated-item--grow,.prueba-animated-content:hover .prueba-animated-item--grow {
+    transform:scale(1.1)
+}
+.prueba-animated-content:focus .prueba-animated-item--shrink,.prueba-animated-content:hover .prueba-animated-item--shrink {
+    transform:scale(.85)
+}
+.prueba-animated-content:focus .prueba-animated-item--shrink-contained,.prueba-animated-content:hover .prueba-animated-item--shrink-contained {
+    transform:scale(1)
+}
+.prueba-animated-content:focus .prueba-animated-item--enter-zoom-in,.prueba-animated-content:focus .prueba-animated-item--enter-zoom-out,.prueba-animated-content:focus .prueba-animated-item--fade-in,.prueba-animated-content:hover .prueba-animated-item--enter-zoom-in,.prueba-animated-content:hover .prueba-animated-item--enter-zoom-out,.prueba-animated-content:hover .prueba-animated-item--fade-in {
+    transform:scale(1);
+    opacity:1
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-zoom-in,.prueba-animated-content:focus .prueba-animated-item--exit-zoom-out,.prueba-animated-content:focus .prueba-animated-item--fade-out,.prueba-animated-content:hover .prueba-animated-item--exit-zoom-in,.prueba-animated-content:hover .prueba-animated-item--exit-zoom-out,.prueba-animated-content:hover .prueba-animated-item--fade-out {
+    opacity:0
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-zoom-out,.prueba-animated-content:hover .prueba-animated-item--exit-zoom-out {
+    transform:scale(.2)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-zoom-in,.prueba-animated-content:hover .prueba-animated-item--exit-zoom-in {
+    transform:scale(2)
+}
+.prueba-animated-content:focus .prueba-animated-item--enter-from-bottom,.prueba-animated-content:focus .prueba-animated-item--enter-from-left,.prueba-animated-content:focus .prueba-animated-item--enter-from-right,.prueba-animated-content:focus .prueba-animated-item--enter-from-top,.prueba-animated-content:hover .prueba-animated-item--enter-from-bottom,.prueba-animated-content:hover .prueba-animated-item--enter-from-left,.prueba-animated-content:hover .prueba-animated-item--enter-from-right,.prueba-animated-content:hover .prueba-animated-item--enter-from-top {
+    opacity:1;
+    transform:translateY(0) translateX(0)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-to-right,.prueba-animated-content:hover .prueba-animated-item--exit-to-right {
+    transform:translateX(1000px)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-to-left,.prueba-animated-content:hover .prueba-animated-item--exit-to-left {
+    transform:translateX(-1000px)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-to-top,.prueba-animated-content:hover .prueba-animated-item--exit-to-top {
+    transform:translateY(-600px)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-to-bottom,.prueba-animated-content:hover .prueba-animated-item--exit-to-bottom {
+    transform:translateY(600px)
+}
+.prueba-animated-content:focus .prueba-animated-item--exit-to-bottom,.prueba-animated-content:focus .prueba-animated-item--exit-to-left,.prueba-animated-content:focus .prueba-animated-item--exit-to-right,.prueba-animated-content:focus .prueba-animated-item--exit-to-top,.prueba-animated-content:hover .prueba-animated-item--exit-to-bottom,.prueba-animated-content:hover .prueba-animated-item--exit-to-left,.prueba-animated-content:hover .prueba-animated-item--exit-to-right,.prueba-animated-content:hover .prueba-animated-item--exit-to-top {
+    opacity:0
+}
+.prueba-animated-content:focus .prueba-animated-item--move-right,.prueba-animated-content:hover .prueba-animated-item--move-right {
+    transform:translateX(30px)
+}
+.prueba-animated-content:focus .prueba-animated-item--move-left,.prueba-animated-content:hover .prueba-animated-item--move-left {
+    transform:translateX(-30px)
+}
+.prueba-animated-content:focus .prueba-animated-item--move-up,.prueba-animated-content:hover .prueba-animated-item--move-up {
+    transform:translateY(-30px)
+}
+.prueba-animated-content:focus .prueba-animated-item--move-down,.prueba-animated-content:hover .prueba-animated-item--move-down {
+    transform:translateY(30px)
+}
+.prueba-animated-content:focus .prueba-animated-item--move-contained-right,.prueba-animated-content:hover .prueba-animated-item--move-contained-right {
+    --translate:8%,0
+}
+.prueba-animated-content:focus .prueba-animated-item--move-contained-left,.prueba-animated-content:hover .prueba-animated-item--move-contained-left {
+    --translate:-8%,0
+}
+.prueba-animated-content:focus .prueba-animated-item--move-contained-top,.prueba-animated-content:hover .prueba-animated-item--move-contained-top {
+    --translate:0,-8%
+}
+.prueba-animated-content:focus .prueba-animated-item--move-contained-bottom,.prueba-animated-content:hover .prueba-animated-item--move-contained-bottom {
+    --translate:0,8%
+}
+.prueba-animated-content [class^=prueba-animated-item] {
+    will-change:transform,opacity
+}
+.prueba-sticky--active {
+    z-index:99
+}
+.e-con.prueba-sticky--active {
+    z-index:var(--z-index,99)
+}
+
+.prueba-motion-effects-element,.prueba-motion-effects-layer {
+    transition-property:transform,opacity;
+    transition-timing-function:cubic-bezier(0,.33,.07,1.03);
+    transition-duration:1s
+}
+.prueba-motion-effects-container {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    transform-origin:var(--e-transform-origin-y) var(--e-transform-origin-x)
+}
+.prueba-motion-effects-layer {
+    position:absolute;
+    top:0;
+    left:0;
+    background-repeat:no-repeat;
+    background-size:cover
+}
+.prueba-motion-effects-perspective {
+    perspective:1200px
+}
+.prueba-motion-effects-element {
+    transform-origin:var(--e-transform-origin-y) var(--e-transform-origin-x)
+}
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+}
+@media screen and (max-height: 1024px) {
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
+@media screen and (max-height: 640px) {
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
